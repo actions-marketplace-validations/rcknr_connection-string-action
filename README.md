@@ -1,4 +1,4 @@
-# Parse postgres connection string
+# Parse PostgreSQL connection string
 
 Github Action to parse PostgreSQL connection string to individual components
 
