@@ -17,7 +17,7 @@ outputs:
     description: Database name
 runs:
   using: node16
-  main: index.js
+  main: dist/index.js
 branding:
   color: gray-dark
   icon: database
