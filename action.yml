@@ -1,0 +1,20 @@
+name: Parse postgres connection string
+description: Parses postgres connection string to individual components
+inputs:
+  connection-string:
+    description: Connection string to parse
+    required: true
+outputs:
+  user:
+    description: Username
+  password:
+    description: Password
+  host:
+    description: Hostname
+  port:
+    description: Port number
+  database:
+    description: Database name
+runs:
+  using: node16
+  main: index.js
